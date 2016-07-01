@@ -54,10 +54,18 @@ Le programme qui suit va nous permettre d’ajouter un bouton « hello world �
 import fontforge
 
 def hello_world(data,glyph):
-  print "hello world!"
+  print "bonjour !"
 
 fontforge.registerMenuItem(hello_world,None,None,("Glyph"),None,"hello world")
 ```
+
+L'entrée de menu « hello world » apparaît alors dans le menu « outils » de la fenêtre glyphe.
+
+![image](images/fontforge-fenetre-glyphe-menu-outils.png "Accès au menu Outils de la fenêtre glyphe.")
+
+Le message « bonjour ! » apparaît alors dans le terminal.
+
+![image](images/fontforge-terminal-message.png "Afficher un message dans le terminal.")
 
 ## Description du module fontforge
 

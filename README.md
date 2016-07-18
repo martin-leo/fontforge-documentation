@@ -18,4 +18,4 @@ Cette documentation ne constitue pas non plus une formation à Fontforge ou un c
 
 ## Licence
 
-Todo
+[GNU GPL](https://gnu.org/licenses/gpl.html)
